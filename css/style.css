@@ -1,0 +1,220 @@
+/*=============================================
+=              General Style                 =
+=============================================*/
+body{
+	font-family: sans-serif;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+}
+a{color: #444;text-decoration: none;}
+a:hover{color: #1d9cd6}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+	text-transform: capitalize;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+section{padding: 10% 0;}
+.container{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.full-container{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.sec-title{
+	font-weight: 400;
+	font-size: 40px;
+}
+.sec-p{
+	color: rgba(255,255,255,.75);
+	font-size: 17px;
+}
+.botton{
+	display: inline-block;
+	padding: 20px 30px;
+	margin-top: 20px;
+	background-color: #f8f9fa;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/*=============================================
+=                   header                  =
+=============================================*/
+header{
+	margin-top: 30px;
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	background-color: transparent;
+}
+header nav{
+	width: 80%;
+	margin: 0 auto;
+}
+header .logo{
+	float: left;
+    margin: 0;
+    padding: 0;
+   color: rgba(255,255,255,.75);
+
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+header ul li a{
+	color: rgba(255,255,255,.75);
+
+}
+header ul li:last-child{
+	margin-right: 0px;
+}
+/*=============================================
+=              Section home                 =
+=============================================*/
+section.home{
+	min-height:100%;
+    background:-webkit-linear-gradient(rgba(92,77,66,.8), rgba(92,77,66,.8)), url(../img/home.jpg);
+    background:-o-linear-gradient(rgba(92,77,66,.8), rgba(92,77,66,.8)), url(../img/home.jpg);
+    background:linear-gradient(rgba(92,77,66,.8), rgba(92,77,66,.8)), url(../img/home.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+section.home .home-caption{
+	width: 600px;
+	margin:50px auto;
+	text-align: center;
+	color: #fff;
+}
+section.home .home-caption h1{
+	font-weight: 700;
+}
+.sec-title:after{
+	content:' ';
+    display:block;
+    border:2px solid #f4623a;
+    width: 60px;
+    margin: 20px auto;
+}
+.botton-home{
+	color: #fff;
+	margin-top: 20px;
+	background-color: #f4623a;
+}
+/*=============================================
+=          Section what you need             =
+=============================================*/
+section.what-you-need{
+	padding: 5% 0;
+	background-color: #f4623a;
+}
+section.what-you-need .sec-title{
+	color: #fff;
+}
+section.what-you-need .sec-title:after{
+	content: ' ';
+	border: 2px solid #fff;
+}
+/*=============================================
+=              Section service              =
+=============================================*/
+section.service{
+	padding: 5% 0;
+}
+section.service .service-box{
+	width: 20%;
+	display: inline-block;
+}
+section.service .service-box h3{
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+section.service .service-box p{
+	margin-top: 0;
+	color: #6c757d;
+}
+section.service .service-box i{
+	color: #f4623a;
+}
+/*=============================================
+=              Section gallery              =
+=============================================*/
+section.gallery{
+	padding: 0;
+}
+section.gallery img{
+	width: 33.3333%;
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+/*=============================================
+=            Section bootstrap              =
+=============================================*/
+section.start-bootstrap{
+	background-color: #343a40;
+	padding: 6% 0;
+}
+section.start-bootstrap h1{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: -20px;
+}
+section.start-bootstrap h1:after{
+	content: '';
+	border: none;
+}
+/*=============================================
+=            Section in touch                =
+=============================================*/
+section .in-touch-icon{
+	float: left;
+	width: 50%;
+}
+section.in-touch p{
+	color: #6c757d;
+}
+section.in-touch .in-touch-icon p{
+	color: #333;
+	font-weight: 400;
+}
+section.in-touch .in-touch-icon .p-red{
+	color: #f4623a;
+}
+section.in-touch .in-touch-icon i{
+	color: #6c757d;
+}
+/*=============================================
+=             Section footer                 =
+=============================================*/
+footer{
+	background-color: #f8f9fa;
+}
+footer p{
+	margin: 0 auto;
+    color: #6c757d;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0;
+}
